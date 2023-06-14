@@ -1,3 +1,13 @@
+### Meu projeto de criação do Clone do TikTok, seguindo as aulas da EBAC.
+
+Meu repositório do github: https://github.com/Rismardo/jornadadevEBAC
+
+Meu Github: https://github.com/Rismardo
+
+
+==============================================================
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
