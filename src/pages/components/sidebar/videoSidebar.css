@@ -7,3 +7,8 @@
 .videoSidebar__options {
     padding: 20px;
 }
+@media only screen and (max-width: 440px) {
+  .videoSidebar{
+    top: 50%;    
+}
+}

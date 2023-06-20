@@ -1,8 +1,8 @@
-html{
+html {
   scroll-snap-type: y mandatory;
 }
-.App{
-  background-color: black;;
+.App {
+  background-color: black;
   height: 100vh;
   display: grid;
   place-items: center;
@@ -18,14 +18,21 @@ html{
   overflow: scroll;
   scroll-snap-type: y mandatory;
   position: relative;
-
 }
 /* Removendo scroll de outros navegadores */
-.app__videos::-webkit-scrollbar{
+.app__videos::-webkit-scrollbar {
   display: none;
 }
-.app__videos{
+.app__videos {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
 
+@media only screen and (max-width: 440px) {
+  .app__videos{
+    width: 100%;
+    height: 100vh;
+    
+  }
+
+}
