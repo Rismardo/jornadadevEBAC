@@ -1,5 +1,6 @@
-import React, { useRef, useState } from 'react'
-import "./video.css"
+import React, { useRef, useState } from 'react';
+import VideoFooter from './components/footer/VideoFooter';
+import "./video.css";
 export default Video;
 
 function Video() {
@@ -16,14 +17,16 @@ function Video() {
             setPlay(true);
         }
     }
-        return (
-            <div className="video__player">
-                <video className='video__player'
-                    ref={videoRef}
-                    onClick={handdleStart}
-                    loop
-                    src="https://poqlymuephttfsljdabn.supabase.co/storage/v1/object/public/jornadadev/brecker2.mp4?t=2023-05-22T19%3A37%3A45.885Z">
-                </video>
-            </div>
-        )
-    }
+    return (
+        <div className="video__player">
+            <video className='video__player'
+                ref={videoRef}
+                onClick={handdleStart}
+                loop
+                src="https://poqlymuephttfsljdabn.supabase.co/storage/v1/object/public/jornadadev/brecker2.mp4?t=2023-05-22T19%3A37%3A45.885Z">
+            </video>
+            {/*Side Bar*/}
+            <VideoFooter />
+        </div>
+    )
+}
