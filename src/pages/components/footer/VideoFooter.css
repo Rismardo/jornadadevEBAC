@@ -29,7 +29,6 @@
   height: 50px;
   filter: invert(1);
 }
-
 @keyframes spinTheRecord {
   0% {
     transform: rotate(0deg);
